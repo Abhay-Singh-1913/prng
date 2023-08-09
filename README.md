@@ -8,7 +8,7 @@ This project demonstrates a combined pseudo-random number generator (PRNG) imple
 - [Implemented PRNGs](#implemented-prngs)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [Disclamer](#disclaimer)
 
 ## Introduction
 
