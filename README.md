@@ -33,7 +33,7 @@ To generate a combined random number using all implemented PRNGs, follow these s
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/combined-prng.git
+   git clone https://github.com/nirajmohanrana/prng.git
     ```
    
 2. Navigate to the project directory:
