@@ -12,7 +12,13 @@ This project demonstrates a combined pseudo-random number generator (PRNG) imple
 
 ## Introduction
 
-Pseudo-random number generators are widely used in various applications that require randomness, such as simulations, games, and cryptography. This project showcases a combined approach where multiple PRNG algorithms are used together to enhance the quality and distribution of generated random numbers.
+Pseudo-random number generators are widely used in various applications that require randomness, such as simulations, games, and cryptography.
+
+To generate sequences of numbers that appear to be random, but are actually determined by an initial value called a seed.
+
+The term "pseudo" indicates that the numbers are not truly random, but they exhibit properties of randomness for most practical purposes.
+
+This project showcases a combined approach where multiple PRNG algorithms are used together to enhance the quality and distribution of generated random numbers.
 
 ## Implemented PRNGs
 
