@@ -100,9 +100,11 @@ class IsaacPRNG:
         return result / float(2 ** 32)
 
 
-def combined_prng(seed=None):
+def combined_prng(seed):
     if seed is None:
-        seed = int(time.time() * 1000)  # Use current time as seed
+        seed = int(time.time() * 1000)
+    else:
+        seed = seed * int(time.time() * 1000)
 
     lcg = LCGPRNG(lcg_seed=seed)
     xorshift = Xorshift128PlusPRNG(xorshift_seed1=seed, xorshift_seed2=seed + 1)
@@ -122,6 +124,13 @@ def combined_prng(seed=None):
     return combined_random
 
 
+# Get user input for the seed
+user_input = input("Enter a seed value (press Enter for default): ")
+if user_input.strip() == "":
+    user_seed = None
+else:
+    user_seed = int(user_input)
+
 # Usage
-random_number = combined_prng()
-print(random_number)
+random_number = combined_prng(seed=user_seed)
+print("Combined Random Number:", random_number)
