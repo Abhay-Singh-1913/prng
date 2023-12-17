@@ -2,7 +2,7 @@
 
 This project demonstrates a combined pseudo-random number generator (PRNG) implementation in Python. It brings together multiple PRNG algorithms, each with its own unique properties, and combines their outputs to generate a single random number.
 
-## Table of Contents
+## Table of Contents:
 
 - [Introduction](#introduction)
 - [Implemented PRNGs](#implemented-prngs)
